@@ -2,10 +2,7 @@ import { useState, ChangeEvent } from 'react';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
-import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import InputAdornment from '@mui/material/InputAdornment';
-import IconifyIcon from 'components/base/IconifyIcon';
 import DataTable from './DataTable';
 
 const RecentOrders = () => {

@@ -1,12 +1,8 @@
 import { useEffect } from 'react';
-import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import { DataGrid, GridColDef, useGridApiRef, GridApi } from '@mui/x-data-grid';
 import DataGridFooter from 'components/common/DataGridFooter';
-import ActionMenu from 'components/common/ActionMenu';
-import Image from 'components/base/Image';
-import { formatNumber } from 'helpers/formatNumber';
 import { rows } from 'data/recentOrdersData';
 
 const actions = [
