@@ -1,4 +1,4 @@
-import { useState, ChangeEvent } from 'react';
+import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import Paper from '@mui/material/Paper';
@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import DataTable from './DataTable';
 
 const Table3 = () => {
-  const [searchText, setSearchText] = useState('');
+  const [searchText] = useState('');
 
   // const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
   //   setSearchText(e.target.value);
