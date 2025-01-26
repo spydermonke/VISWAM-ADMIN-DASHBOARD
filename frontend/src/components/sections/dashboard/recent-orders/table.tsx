@@ -8,9 +8,9 @@ import DataTable from './DataTable';
 const Table = () => {
   const [searchText, setSearchText] = useState('');
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    setSearchText(e.target.value);
-  };
+  // const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+  //   setSearchText(e.target.value);
+  // };
 
   return (
     <Paper sx={{ height: { xs: 418, sm: 370 }, overflow: 'hidden' }}>

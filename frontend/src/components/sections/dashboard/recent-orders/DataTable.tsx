@@ -5,23 +5,23 @@ import { DataGrid, GridColDef, useGridApiRef, GridApi } from '@mui/x-data-grid';
 import DataGridFooter from 'components/common/DataGridFooter';
 import { rows } from 'data/recentOrdersData';
 
-const actions = [
-  {
-    id: 1,
-    icon: 'mage:refresh',
-    title: 'Refresh',
-  },
-  {
-    id: 2,
-    icon: 'solar:export-linear',
-    title: 'Export',
-  },
-  {
-    id: 3,
-    icon: 'mage:share',
-    title: 'Share',
-  },
-];
+// const actions = [
+//   {
+//     id: 1,
+//     icon: 'mage:refresh',
+//     title: 'Refresh',
+//   },
+//   {
+//     id: 2,
+//     icon: 'solar:export-linear',
+//     title: 'Export',
+//   },
+//   {
+//     id: 3,
+//     icon: 'mage:share',
+//     title: 'Share',
+//   },
+// ];
 
 const columns: GridColDef<(typeof rows)[number]>[] = [
   // {
